@@ -5,10 +5,10 @@ export const Header: React.FC = () => {
   return (
     <header>
       <div className="buttons">
-        <Button variant="contained" className="Business">
+        <Button sx={{ boxShadow: 0 }} variant="contained" className="Business">
           For Business
         </Button>
-        <Button variant="contained" className="Customers">
+        <Button sx={{ boxShadow: 0 }} className="Customers">
           For Customers
         </Button>
       </div>
