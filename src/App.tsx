@@ -6,7 +6,6 @@ import girl from './assets/images/image.png';
 function App() {
   return (
     <>
-      <header>
 
         <div className='buttons'>
           <Button variant="contained" className='Business'>For Business</Button> 
@@ -39,8 +38,6 @@ function App() {
             <path d="M795.537 419.052L250.595 417.586C158.616 417.338 84.253 342.574 84.5006 250.595C84.7478 158.756 159.294 84.4504 251.133 84.5L453.547 84.6095" stroke="#FFAA4C" stroke-width="169" stroke-linecap="round" />
           </svg>
         </div>
-
-      </header>
 
       <div className='Background'></div>
     </>
