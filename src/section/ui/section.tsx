@@ -1,18 +1,14 @@
 import React from 'react';
-import { Header } from '../../widgets/header/ui/header.tsx';
-import { Hero } from '../../widgets/hero/ui/hero.tsx';
-import { Footer } from '../../widgets/footer/ui/footer.tsx';
+import { Header } from '../../widgets/header/header.tsx';
+import { Hero } from '../../widgets/hero/hero.tsx';
+import { Footer } from '../../widgets/footer/footer.tsx';
 
 export const Section: React.FC = () => {
   return (
     <>
       <Header />
-      <main>
-        <Hero />
-      </main>
+      <Hero />
       <Footer />
-      <br/><br/><br/><br/><br/><br/><br/><br/>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </>
   );
 };

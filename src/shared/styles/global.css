@@ -24,48 +24,33 @@ header{
     border-radius: 18px 18px 0 0 !important;
     margin-left: 5px !important;
 }
+.Contact-btn2{
+    position: absolute;
+    right: -10px;
+}
 .buttons{
-    display: flex;
     margin-top: -8px;
     margin-left: 60px;
 }
-.icon-budss{
-    display: flex;
-    position: absolute;
+.budss{
+    margin-top: 20px;
     margin-left: 60px;
-    margin-top: 15px;
 }
 .icon-budss svg{
     width: 32px;
     height: 36px;
 }
 .text-comp{
-    display: flex;
     font-family: "Outfit", "SemiBold", sans-serif;
-    font-weight: 600;
     font-size: 37px;
-    line-height: 17px;
-    margin-top: 24px;
-    margin-left: 100px;
+    line-height: 30px;
     text-transform: lowercase;
     text-align: left;
     color: #fff;
 }
-.Contact-btn2{
-    display: flex;
-    position: absolute;
-    right: 0;
-    bottom: -25px;
-}
-.main-text{
-    display: flex;
-    width: 100%;
+.Influencer{
+    margin: 0px;
     max-width: 671px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-bottom: 0;
-    text-align: left;
-
     color: #fff;
     font-size: 96px;
     font-style: normal;
@@ -73,15 +58,9 @@ header{
     font-weight: 700;
     line-height: 102px;
 }
-.next-text{
-    display: flex;
-    width: 100%;
-    max-width: 534px;
-    margin-top: 15px;
-    margin-left: 100px;
-    margin-bottom: 0;
-    text-align: left;
-
+.Budss-Info {
+    margin: 0px;
+    max-width: 671px;
     color: #fff;
     font-size: 20px;
     font-style: normal;
@@ -109,15 +88,15 @@ header{
     background-color: #181818 !important;
 }
 .Contact-btn{
-    display: flex;
-    margin-left: 100px;
-    margin-top: 35px;
+    margin-top: 30px;
+}
+.FlexAbout{
+    margin-left: 90px;
 }
 .Girl-img{
-    display: flex;
     position: absolute;
     z-index: 10;
-    bottom: -20px;
+    bottom: 3px;
     right: 5px;
 }
 .Girl-img img{
@@ -125,11 +104,9 @@ header{
     height: 523px;
 }
 .background-img{
-    display: flex;
     position: absolute;
-    bottom: -20px;
+    bottom: 0px;
     right: -75px;
-    z-index: 9;
 }
 .background-img svg {
     width: 586px;
