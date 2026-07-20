@@ -24,11 +24,6 @@ export const Hero: React.FC = () => {
       <div className="Girl-img">
         <img src={girl} alt="Girl" />
       </div>
-      {/*<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-      <br/><br/>
-      <div className="About">
-        About Budss
-      </div>*/}
     </section>
   );
 };

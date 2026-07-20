@@ -1,6 +1,6 @@
 import React from 'react';
-import { HomePage } from '../pages/home/ui/homepage.tsx';
+import { Section } from '../section/ui/section.tsx';
 
 export const App: React.FC = () => {
-  return <HomePage />;
+  return <Section />;
 };
