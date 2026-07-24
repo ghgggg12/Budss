@@ -12,13 +12,9 @@ body::-webkit-scrollbar {
     background-color: #954ced;
     color: #fff;
     font-size: 17px;
-    font-style: normal;
-    text-align: left;
-    text-transform: none;
     font-family: "Outfit", sans-serif;
     transition: all .30000001192092896s ease-out;
     font-weight: 500;
-    line-height: normal;
 }
 .Contact:hover{
     cursor: pointer;
