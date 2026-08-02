@@ -8,6 +8,7 @@ export const Header: React.FC = () => {
   return (
     <header>
       <section className='BusinessSection_Header'>
+        <div className="Background" />
         <Flex className="BusinessSection_Buttons" justifyContent='flex-start'>
           <Button sx={{ boxShadow: 0 }} variant="contained" disableElevation className="Business">
             For Business
