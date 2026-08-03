@@ -14,8 +14,8 @@ export const WhyBudss = () => (
         <Flex className='WhyBudssSection_About' height='100px' justifyContent='Center'>We Provide Advanced Payment Solutions<br/>To Grow Your Business</Flex>
         <Flex className='WhyBudssSection_backgroundText' justifyContent='center'><img src={backgroundText} alt='background'/></Flex>
 
-        <Flex className='WhyBudssSection_Containers' flexDirection='column' justifyContent='center'>
-            <Flex className='Containers_Row1' flexDirection='row'>
+        <Flex className='WhyBudssSection_Containers' flexDirection='column' alignItems='center'>
+            <Flex className='Containers_Row1' justifyContent='center' flexDirection='row'>
                 <Flex className='Row1_Container1' flexDirection='column'>
                     <Flex className='Container1_Img' justifyContent='flex-start'>
                         <img src={Mobile} alt='Mobile'/>
@@ -54,7 +54,7 @@ export const WhyBudss = () => (
                 </Flex>
             </Flex>
 
-            <Flex className='Containers_Row2' flexDirection='row' flexGrow="1">
+            <Flex className='Containers_Row2' justifyContent='center' flexDirection='row' flexGrow="1">
                 <Flex className='Row2_Container3' flexDirection='column'>
                     <Flex className='Container3_Header'>
                         Supercharge<br/>

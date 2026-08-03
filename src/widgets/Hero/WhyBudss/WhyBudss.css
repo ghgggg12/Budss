@@ -35,12 +35,11 @@
 }
 
 .WhyBudssSection_Containers{
-    position: absolute;
-    top: 250px;
-    left: 35px;
+    margin-top: 60px;
 }
 
 .Row1_Container1{
+    position: relative;
     background-color: #f5f5f5;
     overflow: hidden;
     box-sizing: border-box;
@@ -81,8 +80,8 @@
 }
 
 .Row1_Container2{
-    position: absolute;
-    left: 750px;
+    position: relative;
+    margin-left: 20px;
     background-color: #f5f5f5;
     overflow: hidden;
     box-sizing: border-box;
@@ -178,8 +177,8 @@
 }
 
 .Row2_Container4{
-    position: absolute;
-    left: 565px;
+    position: relative;
+    margin-left: 20px;
     background-color: #f5f5f5;
     overflow: hidden;
     box-sizing: border-box;
