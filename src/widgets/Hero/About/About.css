@@ -3,7 +3,7 @@
     position: relative;
     min-height: 953px;
 }
-.AboutSection_About{
+.AboutSection_Text{
     margin-bottom: 150px;
     margin-left: 60px;
 }
@@ -52,7 +52,6 @@
     display: flex;
     gap: 270px;
     width: auto;
-    z-index: 2;
 }
 .AboutSection_Chain{
     position: relative;
