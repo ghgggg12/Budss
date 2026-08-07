@@ -9,7 +9,7 @@ import './HowWorks.css';
 export const HowWorks = () => (
     <section className="HowWorksSection">
         <Flex className="HowWorksSection_Image" justifyContent="center">
-            <img src={Phone} className="Phone" />
+            <img src={Phone} className="Image_Phone" />
         </Flex>
 
         <Flex className="HowWorksSection_Text" flexDirection="column" justifyContent="center">

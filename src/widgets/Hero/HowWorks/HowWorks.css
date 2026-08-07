@@ -5,8 +5,12 @@
     overflow: hidden;
 }
 .HowWorksSection_Image{
+    display: flex;
     position: absolute;
     z-index: 10;
+    .Image_Phone{
+        display: flex;
+    }
 }
 .HowWorksSection_Text{
     position: absolute;

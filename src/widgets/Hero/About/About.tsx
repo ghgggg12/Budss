@@ -9,11 +9,11 @@ import './About.css';
 
 export const AboutSection = () => (
     <section className='AboutSection'>
-        <Flex className='AboutSection_About' justifyContent="center" flexDirection="column" width="550px" height="auto">
+        <Flex className='AboutSection_Text' justifyContent="center" flexDirection="column" width="550px" height="auto">
             <Flex className='AboutSection_Header' alignItems='flex-start'>
                 About Budss
             </Flex>
-            <div className='AboutSection_Text'>
+            <div className='AboutSection_About'>
                 <div className='AboutSection_Info'>
                 Payment as a service, powered seamlessly by our network of shoppers
                 </div>
@@ -22,7 +22,7 @@ export const AboutSection = () => (
                 </Flex>
             </div>
         </Flex>
-        <Flex className='AboutSection_Icons' alignItems='flex-start' flexDirection='row' flexWrap='wrap' justifyContent='flex-start' width="500px" height="300px">
+        <Flex className='AboutSection_Icons' alignItems='flex-start' flexDirection='row' flexWrap='wrap' justifyContent='flex-start' width="500px" height="420px">
             <img src={Star} className='AboutSection_Star' />
             <img src={Arrow} className='AboutSection_Arrow' />
             <img src={Wave} className='AboutSection_Wave' />

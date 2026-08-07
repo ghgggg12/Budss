@@ -1,9 +1,9 @@
 .AboutSection{
     top: 100px;
     position: relative;
-    min-height: 954px;
+    min-height: 953px;
 }
-.AboutSection_About{
+.AboutSection_Text{
     margin-bottom: 150px;
     margin-left: 60px;
 }
@@ -29,7 +29,7 @@
     font-size: 36px;
     font-style: normal;
     text-align: left;
-    font-family: "Outfit",sans-serif;
+    font-family: "Outfit", sans-serif;
     font-weight: 600;
     line-height: normal;
     margin-bottom: 0;
@@ -52,7 +52,6 @@
     display: flex;
     gap: 270px;
     width: auto;
-    z-index: 2;
 }
 .AboutSection_Chain{
     position: relative;
@@ -111,8 +110,10 @@
     left: 20px;
 }
 .AboutSection_Logo{
+    display: flex;
     position: absolute;
     height: auto;
-    width: 721px;
+    width: 420px;
+    min-height: 482;
     z-index: 0;
 }

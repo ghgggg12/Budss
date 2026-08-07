@@ -4,6 +4,7 @@ import { Hero } from '../widgets/Hero/index.ts';
 import { AboutSection } from '../widgets/Hero/About/About.tsx';
 import { HowWorks } from '../widgets/Hero/HowWorks/HowWorks.tsx';
 import { Stats } from '../widgets/Hero/Stats/Stats.tsx';
+import { WhyBudss } from '../widgets/Hero/WhyBudss/WhyBudss.tsx';
 /*import { Footer } from '../widgets/Footer/index.ts';*/
 
 export const App: React.FC = () => {
@@ -14,6 +15,7 @@ export const App: React.FC = () => {
       <AboutSection />
       <HowWorks />
       <Stats />
+      <WhyBudss />
     </>
   );
 };

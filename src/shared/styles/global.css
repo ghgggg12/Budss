@@ -1,9 +1,11 @@
 body{
     overflow-x: hidden;
+    width: auto;
     background: #181818;
-}
-body::-webkit-scrollbar {
-    display: none;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
 }
 .Contact.MuiButton-root{
     width: 182px;
@@ -16,8 +18,9 @@ body::-webkit-scrollbar {
     font-family: "Outfit", sans-serif;
     transition: all .30000001192092896s ease-out;
     font-weight: 500;
-}
-.Contact:hover{
-    cursor: pointer;
-    background-color: #181818;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #181818;
+    }
 }
