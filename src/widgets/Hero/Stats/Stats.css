@@ -1,7 +1,7 @@
 .StatsSection{
     position: relative;
     overflow: hidden;
-    top: 300px;
+    margin-top: 100px;
     height: 222px;
 }
 .StatsSection_Text{
