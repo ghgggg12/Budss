@@ -1,79 +1,10 @@
-/* 1 SLide*/
-header{
-    position: relative;
-    z-index: 10;
-}
-.Business.MuiButton-root{
-    margin-top: 8px;
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    text-transform: none;
-    width: 175px;
-    height: 38px;
-    background-color: #181818;
-    color: #ffffff;
-    border-radius: 20px 20px 0 0;
-}
-.Customers.MuiButton-root{
-    margin-top: 8px;
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    text-transform: none;
-    width: 175px;
-    height: 38px;
-    /*background-color: #181818;*/
-    color: #000000;
-    border-radius: 20px 20px 0 0;
-    margin-left: 5px;
-}
-.Contact-btn2{
-    position: absolute;
-    bottom: -8px;
-    right: 55px;
-}
-.buttons{
-    margin-top: -8px;
-    margin-left: 60px;
-}
-.budss{
-    margin-top: 20px;
-    margin-left: 60px;
-}
-.icon-budss svg{
-    width: 32px;
-    height: 36px;
-}
-.text-comp{
-    font-family: "Outfit", "SemiBold", sans-serif;
-    font-size: 37px;
-    font-weight: 600;
-    line-height: 30px;
-    text-transform: lowercase;
-    text-align: left;
-    color: #fff;
-    margin-top: 3px;
-}
-.Influencer{
-    margin: 0px;
-    max-width: 671px;
-    color: #fff;
-    font-size: 96px;
-    font-style: normal;
-    font-family: "Outfit", sans-serif;
-    font-weight: 700;
-    line-height: 102px;
-}
-.Budss-Info {
-    margin-top: 10px;
-    max-width: 671px;
-    color: #fff;
-    font-size: 20px;
-    font-style: normal;
-    font-family: "Outfit", sans-serif;
-    font-weight: 100;
-    line-height: 24px;
+body{
+    overflow-x: hidden;
+    background: #181818;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
 }
 .Contact.MuiButton-root{
     width: 182px;
@@ -82,79 +13,13 @@ header{
     background-color: #954ced;
     color: #fff;
     font-size: 17px;
-    font-style: normal;
-    text-align: left;
     text-transform: none;
     font-family: "Outfit", sans-serif;
     transition: all .30000001192092896s ease-out;
     font-weight: 500;
-    line-height: normal;
-}
-.Contact:hover{
-    cursor: pointer;
-    background-color: #181818;
-}
-.Contact-btn{
-    margin-top: 30px;
-}
-.FlexAbout{
-    margin-left: 90px;
-}
-.Girl-img{
-    position: absolute;
-    z-index: 10;
-    bottom: 3px;
-    right: 60px;
-}
-.Girl-img img{
-    width: auto;
-    height: 523px;
-}
-.background-img{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
-.background-img svg {
-    width: 586px;
-    height: 498px;
-}
-/*2 slide
-.About{
-    border:1px solid red;
-    width: 100%;
-    max-width: auto;
-    margin-top: 0;
-    min-height: auto;
-    text-align: left;
-    margin-left: 60px;
-    margin-bottom: 0;
 
-    position: absolute;
-    color: #fff;
-    font-size: 96px;
-    font-style: normal;
-    font-family: "Outfit",sans-serif;
-    font-weight: 700;
-    line-height: 102px;
-    letter-spacing: 0;
-    text-transform: none;
-    text-decoration: none;
-}*/
-/*Adaptation*/
-
-/*Main*/
-body{
-    overflow-x: hidden;
-    background: #181818;
-}
-.Background{
-    background: #ffaa4c;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 38px;
-    overflow: hidden;
-    z-index: 0;
+    &:hover{
+        cursor: pointer;
+        background-color: #181818;
+    }
 }
