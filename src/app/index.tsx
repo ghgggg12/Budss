@@ -1,0 +1,30 @@
+import React from 'react';
+import { Header } from '../widgets/Header/index.ts';
+import { Hero } from '../widgets/Hero/index.ts';
+import { AboutSection } from '../widgets/Hero/About/index.ts';
+import { HowWorks } from '../widgets/Hero/HowWorks/index.ts';
+import { Stats } from '../widgets/Hero/Stats/index.ts';
+import { WhyBudss } from '../widgets/Hero/WhyBudss/index.ts';
+import { Brand } from '../widgets/Hero/Brand/index.ts';
+import { Footer } from '../widgets/Footer/index.ts';
+import { Form } from '../widgets/Hero/Form/index.ts';
+import { ThankYou } from '../widgets/Hero/Thank-you/ThankYou.tsx';
+import { BackgroundForm } from '../widgets/Hero/Form/codes/background/background.tsx';
+
+export const App: React.FC = () => {
+  return (
+    <>
+      <Header />
+      <Form />
+      <ThankYou />
+      <Hero />
+      <AboutSection />
+      <HowWorks />
+      <Stats />
+      <WhyBudss />
+      <Brand />
+      <Footer />
+      <BackgroundForm />
+    </>
+  );
+};
