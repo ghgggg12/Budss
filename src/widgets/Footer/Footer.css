@@ -1,0 +1,89 @@
+.Footer_Row1{
+    margin-top:40px;
+}
+.Row1_Logo{
+    margin-left: 4%;
+}
+.Logo_Text{
+    color: #fff;
+    margin-left: 8px;
+    font-size: 37px;
+    font-style: normal;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: lowercase;
+}
+.Row1_About{
+    gap: 40px;
+}
+.About_Business, .About_Customers{
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: none;
+
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.Row1_Buttons{
+    gap: 20px;
+    margin-right: 4%;
+}
+.Buttons_GooglePlay.MuiButton-root, .Buttons_AppStore.MuiButton-root{
+    padding: 0px;
+    display: flex;
+    color: #fff;
+}
+.Footer_Line{
+    margin-left: 4%;
+    margin-top: 30px;
+    transform: rotate(0deg);
+    border-top: 1px solid #444;
+    box-sizing: border-box;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+.Footer_Row2{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.Row2_Copyright{
+    margin-left: 4%;
+    color: #b9b9b9;
+    font-size: 14px;
+    font-style: normal;
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+    line-height: 20px;
+    text-transform: none;
+}
+.Row2_Buttons{
+    gap: 20px;
+    margin-right: 4%;
+}
+.button.MuiButton-root{
+    color: #b9b9b9;
+    padding: 0px;
+    background: none;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}

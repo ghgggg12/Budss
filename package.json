@@ -16,7 +16,9 @@
     "@mui/material": "^9.2.0",
     "normalize.css": "^8.0.1",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-hook-form": "^7.85.0",
+    "react-input-mask": "^2.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

@@ -1,0 +1,52 @@
+.BusinessSection{
+    min-height: 100%;
+    z-index: 9;
+}
+.BusinessSection_Info{
+    margin-left: 90px;
+}
+.Info_Header{
+    margin: 0px;
+    max-width: 671px;
+    color: #fff;
+    font-size: 96px;
+    font-style: normal;
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    line-height: 102px;
+}
+.Info_About{
+    margin-top: 10px;
+    max-width: 671px;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "Outfit", sans-serif;
+    font-weight: 100;
+    line-height: 24px;
+}
+.Button{
+    margin-top: 30px;
+}
+.BusinessSection_Girl{
+    margin-top: 85px;
+}
+.Girl_Image{
+    position: absolute;
+    z-index: -1;
+}
+.Girl_Image img{
+    width: auto;
+    margin-right: 76px;
+    height: 523px;
+}
+.Girl_Background{
+    position: absolute;
+    z-index: -2;
+}
+.Girl_Background svg{
+    width: 586px;
+    height: 498px;
+}
