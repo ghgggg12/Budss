@@ -2,6 +2,7 @@ import React from 'react';
 import { Flex } from '../../shared/ui/types/flex/Flex.tsx';
 import { BudssLogo } from '../../shared/assets/svg/svg.tsx';
 import Button from '@mui/material/Button';
+import ContactButton from '../Hero/Form/codes/open/Button/Button.tsx';
 import './Header.css';
 
 export const Header: React.FC = () => {
@@ -19,9 +20,7 @@ export const Header: React.FC = () => {
         </Flex>
 
         <Flex className="BusinessSection_Contact" justifyContent="flex-end">
-          <Button variant="contained" className="Contact">
-            Contact sales
-          </Button>
+          <ContactButton />
         </Flex>
 
         <Flex flexDirection="row" width="135px" className="BusinessSection_HeaderBudss">

@@ -1,8 +1,9 @@
 import { Flex } from '../../shared/ui/types/flex/Flex.tsx';
 import { BudssLogo } from '../../shared/assets/svg/svg.tsx';
 import Button from '@mui/material/Button';
+import ContactButton from '../Hero/Form/codes/open/Button/Button.tsx';
 import AppStore from '../../shared/assets/svg/appstore.svg';
-import GooglePlau from '../../shared/assets/svg/googleplay.svg';
+import GooglePlay from '../../shared/assets/svg/googleplay.svg';
 import './Footer.css';
 
 export const Footer: React.FC = () => {
@@ -17,18 +18,16 @@ export const Footer: React.FC = () => {
                     <Flex className="Logo_Text">budss</Flex>
                 </Flex>
                 <Flex className='Row1_About' alignItems='center' justifyContent='center'>
-                    <div className='About_Business'>For Business</div>
-                    <div className='About_Customers'>For Customers</div>
+                    <a className='About_Business'>For Business</a>
+                    <a className='About_Customers'>For Customers</a>
                 </Flex>
                 <Flex className='Row1_Buttons' width='1260px' alignItems='center' justifyContent='flex-end'>
-                    <Button variant="contained" className="Buttons_Contact">
-                      Contact sales
-                    </Button>
+                    <ContactButton />
                     <Button href='https://apps.apple.com/us/app/budss/id1595412742' target='_blank' className="Buttons_AppStore">
                       <img src={AppStore} alt='AppStore'/>
                     </Button>
                     <Button href='https://apps.apple.com/us/app/budss/id1595412742' target='_blank' className="Buttons_GooglePlay">
-                      <img src={GooglePlau} alt='GooglePlay'/>
+                      <img src={GooglePlay} alt='GooglePlay'/>
                     </Button>
                 </Flex>
             </Flex>

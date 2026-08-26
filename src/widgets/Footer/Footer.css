@@ -27,29 +27,15 @@
     font-weight: 400;
     line-height: normal;
     text-transform: none;
+
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
 }
 .Row1_Buttons{
     gap: 20px;
     margin-right: 4%;
-}
-.Buttons_Contact.MuiButton-root{
-    display: flex;
-    margin-right: 20px;
-    width: 182px;
-    height: 57px;
-    border-radius: 16px;
-    background-color: #954ced;
-    color: #fff;
-    font-size: 17px;
-    text-transform: none;
-    font-family: "Outfit", sans-serif;
-    transition: all .30000001192092896s ease-out;
-    font-weight: 500;
-
-    &:hover{
-        cursor: pointer;
-        background-color: #181818;
-    }
 }
 .Buttons_GooglePlay.MuiButton-root, .Buttons_AppStore.MuiButton-root{
     padding: 0px;

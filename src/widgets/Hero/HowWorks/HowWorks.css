@@ -8,9 +8,10 @@
     display: flex;
     position: absolute;
     z-index: 10;
-    .Image_Phone{
-        display: flex;
-    }
+}
+.Image_Phone{
+    display: flex;
+    z-index: 10;
 }
 .HowWorksSection_Text{
     position: absolute;
