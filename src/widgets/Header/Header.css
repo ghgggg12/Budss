@@ -69,6 +69,7 @@ header{
     right: 55px;
 }
 .Header_Burger.MuiButton-root{
+    display: none;
     position: absolute;
     color: #181818;
     right: 0;
@@ -96,6 +97,9 @@ header{
     }
     .Header_Button{
         display: none;
+    }
+    .Header_Burger.MuiButton-root{
+        display: flex;
     }
 }
 /* adaptive for computer */
