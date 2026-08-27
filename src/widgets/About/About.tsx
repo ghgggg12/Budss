@@ -34,7 +34,7 @@ export const AboutSection = () => (
             </div>
             <div className='Texts_Increased'>
                 <img src={Arrow} className='Increased_Image' />
-                <div className='Increased_Main main'>Increased<br/>Buying Power</div>
+                <div className='Increased_Main main'>Increased&nbsp;<br/>Buying Power</div>
                 <div className='Increased_Other other'>
                     Returning customers spend<br/>
                     up to 3X more.
@@ -42,20 +42,20 @@ export const AboutSection = () => (
             </div>
             <div className='Texts_Analytics'>
                 <img src={Wave} className='Analytics_Image' />
-                <div className='Analytics_Main main'>Analytics<br/>&amp; Insights</div>
+                <div className='Analytics_Main main'>Analytics&nbsp;<br/>&amp; Insights</div>
                 <div className='Analytics_Other other'>
-                    Gain a holistic view into your<br/>
+                    Gain a holistic view into your&nbsp;<br/>
                     customers’ buying behavior<br/>
                     & purchasing patterns. 
                 </div>
             </div>
             <div className='Texts_Fraud'>
                 <img src={Chain} className='Fraud_Image' />
-                <div className='Fraud_Main main'>Fraud<br/>Protection</div>
+                <div className='Fraud_Main main'>Fraud&nbsp;<br/>Protection</div>
                 <div className='Fraud_Other other'>
                     Budss handles all payments<br/>
                     with a fraud prevention<br/>
-                    algorithm to flag high risk<br/>
+                    &nbsp;algorithm to flag high risk&nbsp;<br/>
                     purchases & a user set PIN code<br/>
                     to keep payment info secure.
                 </div>

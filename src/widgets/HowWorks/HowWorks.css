@@ -52,7 +52,7 @@
 @media (max-width: 767px) {
     .HowWorksSection{
         position: relative;
-        margin-top: 40px;
+        margin-top: 80px;
         min-height: 460px;
         overflow: hidden;
     }

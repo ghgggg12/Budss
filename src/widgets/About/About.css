@@ -139,6 +139,18 @@
         font-weight: 400;
         line-height: normal;
     }
+    .Contactless_Other{
+        width: 321px;
+    }
+    .Analytics_Other{
+        width: 306px;
+    }
+    .Fraud_Other{
+        width: 336px;
+    }
+    .Increased_Main{
+        width: 300px;
+    }
     .Texts_Fraud{
         margin-left: 0px;
     }
