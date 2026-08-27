@@ -63,10 +63,18 @@
         z-index: 10;
     }
     .HowWorksSection_Text{
-        gap: 93px;
+        gap: 90px;
     }
     .Text{
         width: auto;
         height: 51px;
+    }
+    @keyframes marquee{
+        from{
+            transform: translateX(-216%);
+        }
+        to{
+            transform: translateX(0);
+        }
     }
 }
