@@ -62,9 +62,41 @@ header{
     margin-top: 3px;
 }
 .Header_Button{
+    display: flex;
+    justify-content: flex-end;
     position: absolute;
     bottom: -8px;
     right: 55px;
+}
+.Header_Burger.MuiButton-root{
+    position: absolute;
+    color: #181818;
+    right: 0;
+    margin: 16px;
+}
+/* adaptive for mobile */
+@media (max-width: 767px) {
+    .Header_Background{
+        width: 100%;
+        height: 45px;
+    }
+    .Header_Buttons{
+        margin-left: 0px;
+    }
+    .Header_Business.MuiButton-root{
+        width: 165px;
+        height: 38px;
+    }
+    .Header_Customers.MuiButton-root{
+        width: 165px;
+        height: 38px;
+    }
+    .Header_HeaderBudss{
+        margin: 16px;
+    }
+    .Header_Button{
+        display: none;
+    }
 }
 /* adaptive for computer */
 @media (min-width: 1440px) { 
