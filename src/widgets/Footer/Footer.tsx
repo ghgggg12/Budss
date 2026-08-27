@@ -1,9 +1,9 @@
-import { Flex } from '../../shared/ui/types/flex/Flex.tsx';
-import { BudssLogo } from '../../shared/assets/svg/svg.tsx';
+import { Flex } from '@shared/ui/types/flex/Flex.tsx';
+import { BudssLogo } from '@shared/assets/svg/svg.tsx';
 import Button from '@mui/material/Button';
-import ContactButton from '../../shared/ui/Button/Button.tsx';
-import AppStore from '../../shared/assets/svg/appstore.svg';
-import GooglePlay from '../../shared/assets/svg/googleplay.svg';
+import ContactButton from '@shared/ui/Button/Button.tsx';
+import AppStore from '@shared/assets/svg/appstore.svg';
+import GooglePlay from '@shared/assets/svg/googleplay.svg';
 import './Footer.css';
 
 export const Footer: React.FC = () => {

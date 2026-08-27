@@ -37,13 +37,14 @@
 }
 .Info_Button{
     margin-top: 30px;
+    margin-bottom: 90px;
 }
 .BusinessSection_Girl{
     display: flex;
     position: absolute;
     justify-self: flex-end;
     align-self: flex-end;
-    width: 800px;
+    width: auto;
 }
 .Girl_Image{
     z-index: -1;
@@ -60,4 +61,33 @@
 .Girl_Background svg{
     width: 586px;
     height: 498px;
+}
+/* adaptive for computer */
+@media (min-width: 1440px) {
+    .BusinessSection{
+        height: 92vh;
+    }
+    .BusinessSection_Info{
+        height: 100%;
+        width: auto;
+    }
+    .Info_Header{
+        max-width: 900px;
+        font-size: 128px;
+        line-height: 120px;
+    }
+    .Info_About{
+        max-width: 900px;
+        font-size: 27px;
+        line-height: 24px;
+    }
+    .Girl_Image img{
+        width: auto;
+        margin-right: 76px;
+        height: 773px;
+    }
+    .Girl_Background svg{
+        width: 886px;
+        height: 738px;
+    }
 }

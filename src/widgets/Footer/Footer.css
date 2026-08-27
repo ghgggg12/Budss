@@ -87,3 +87,9 @@
         text-decoration: underline;
     }
 }
+/* adaptive for 1440 */
+@media (min-width: 1440px) {
+    .About_Business, .About_Customers{
+        font-size: 28px;
+    }
+}

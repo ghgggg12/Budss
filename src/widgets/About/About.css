@@ -46,19 +46,31 @@
     background-color: #a64ced;
 }
 .AboutSection_Icons{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
     position: absolute;
+    width: 610px;
+    height: 420px;
     top: 200px;
     left: 570px;
-    display: flex;
     gap: 270px;
-    width: auto;
 }
 .AboutSection_Chain{
     position: relative;
     left: -10px;
 }
 .AboutSection_MainText{
+    display: flex;
     position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 710px;
+    height: 460px;
     top: 300px;
     left: 560px;
     display: flex;
@@ -98,6 +110,7 @@
 .OtherText_Spend{
     position: relative;
     bottom: 60px;
+    right: 3px;
 }
 .OtherText_Patterns{
     position: relative;
@@ -115,4 +128,58 @@
     width: 420px;
     min-height: 482;
     z-index: 0;
+}
+/* adaptive for computer */
+@media (min-width: 1440px) {
+    .AboutSection_Icons{
+        margin-left: 200px;
+        width: 700px;
+    }
+    .AboutSection_Arrow{
+        margin-left: 60px;
+    }
+    .AboutSection_Chain{
+        margin-left: 47px;
+    }
+    .AboutSection_MainText{
+        margin-left: 200px;
+        gap: 110px;
+        font-size: 72px;
+        width: auto;
+        line-height: 56px;
+    }
+    .MainText_Increased{
+        position: relative;
+        left: -60px;  
+    }
+    .MainText_Fraud{
+        position: relative;
+        left: -10px;        
+    }
+    .AboutSection_OtherText{
+        margin-left: 200px;
+        height: auto;
+        width: auto;
+        gap: 60px;
+    }
+    .OtherText_NFC{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .OtherText_Spend{
+        margin-top: 10px;
+        margin-left: 52px;
+    }
+    .OtherText_Patterns{
+        margin-top: 5px;
+        margin-left: 2px;
+    }
+    .OtherText_Secure{
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    .AboutSection_Logo{
+        width: auto;
+        height: 484px;
+    }
 }

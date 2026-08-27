@@ -1,9 +1,9 @@
-import { Flex } from '../../shared/ui/types/flex/Flex.tsx'
-import Phone from '../../shared/assets/images/phone.png';
-import Orange from '../../shared/assets/svg/orange.svg';
-import Purple from '../../shared/assets/svg/purple.svg';
-import Blue from '../../shared/assets/svg/blue.svg';
-import Invisible from '../../shared/assets/svg/invisible.svg'
+import { Flex } from '@shared/ui/types/flex/Flex.tsx'
+import Phone from '@shared/assets/images/phone.png';
+import Orange from '@shared/assets/svg/orange.svg';
+import Purple from '@shared/assets/svg/purple.svg';
+import Blue from '@shared/assets/svg/blue.svg';
+import Invisible from '@shared/assets/svg/invisible.svg'
 import './HowWorks.css';
 
 export const HowWorks = () => (
