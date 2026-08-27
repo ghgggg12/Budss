@@ -2,7 +2,7 @@ header{
     position: relative;
     z-index: 10;
 }
-.Background{
+.Header_Background{
     background: #ffaa4c;
     position: absolute;
     top: 0;
@@ -12,11 +12,11 @@ header{
     overflow: hidden;
     z-index: 0;
 }
-.BusinessSection_Buttons{
+.Header_Buttons{
     margin-top: -8px;
     margin-left: 60px;
 }
-.Business.MuiButton-root{
+.Header_Business.MuiButton-root{
     margin-top: 8px;
     font-family: "Outfit", sans-serif;
     font-size: 16px;
@@ -28,7 +28,7 @@ header{
     color: #ffffff;
     border-radius: 20px 20px 0 0;
 }
-.Customers.MuiButton-root{
+.Header_Customers.MuiButton-root{
     margin-top: 8px;
     font-family: "Outfit", sans-serif;
     font-size: 16px;
@@ -41,15 +41,15 @@ header{
     border-radius: 20px 20px 0 0;
     margin-left: 5px;
 }
-.BusinessSection_HeaderBudss{
+.Header_HeaderBudss{
     margin-top: 20px;
     margin-left: 60px;
 }
-.BusinessSection_HeaderBudss svg{
+.Header_HeaderBudss svg{
     width: 32px;
     height: 36px;
 }
-.BusinessSection_Text{
+.Header_Text{
     font-family: "Outfit", "SemiBold", sans-serif;
     font-size: 37px;
     font-weight: 600;
@@ -59,7 +59,7 @@ header{
     color: #fff;
     margin-top: 3px;
 }
-.BusinessSection_Contact{
+.Header_Button{
     position: absolute;
     bottom: -8px;
     right: 55px;

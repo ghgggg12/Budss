@@ -1,4 +1,4 @@
-import { Flex } from '../../../shared/ui/types/flex/Flex.tsx'
+import { Flex } from '../../shared/ui/types/flex/Flex.tsx'
 import './Stats.css';
 
 export const Stats = () => (

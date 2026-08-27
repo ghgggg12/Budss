@@ -81,7 +81,6 @@
 }
 .AboutSection_OtherText{
     position: absolute;
-    top: 480px;
     left: 560px;
     display: flex;
     gap: 50px;
