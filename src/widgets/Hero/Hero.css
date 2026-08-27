@@ -62,6 +62,50 @@
     width: 586px;
     height: 498px;
 }
+/* adaptive for mobile */
+@media (max-width: 767px) {
+    .BusinessSection{
+        height: auto;
+    }
+    .BusinessSection_Info{
+        align-items: flex-start;
+        height: 100%;
+        width: auto;
+        flex-direction: column;
+        margin: 51px 16px 0px 16px ;
+    }
+    .Info_Header{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    .Info_About{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .Info_Button{
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .BusinessSection_Girl{
+        position: relative;
+        margin-top: 124px;
+    }
+    .Girl_Image img{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 275px;
+    }
+    .Girl_Background{
+        position: absolute;
+        z-index: -2;
+    }
+    .Girl_Background svg{
+        width: 350px;
+        height: 250px;
+    }
+}
 /* adaptive for computer */
 @media (min-width: 1440px) {
     .BusinessSection{
