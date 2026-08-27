@@ -11,6 +11,7 @@
 }
 .Image_Phone{
     display: flex;
+    width: auto;
     z-index: 10;
 }
 .HowWorksSection_Text{
@@ -46,5 +47,26 @@
     }
     to{
         transform: translateX(0);
+    }
+}
+@media (max-width: 767px) {
+    .HowWorksSection{
+        position: relative;
+        margin-top: 40px;
+        min-height: 460px;
+        overflow: hidden;
+    }
+    .Image_Phone{
+        display: flex;
+        width: auto;
+        height: 461px;
+        z-index: 10;
+    }
+    .HowWorksSection_Text{
+        gap: 93px;
+    }
+    .Text{
+        width: auto;
+        height: 51px;
     }
 }
