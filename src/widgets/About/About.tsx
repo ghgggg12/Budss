@@ -18,45 +18,49 @@ export const AboutSection = () => (
                 Payment as a service, powered seamlessly by our network of shoppers
                 </div>
                 <Flex alignItems='flex-end'>
-                <img src={background} className='AboutSection_Background' />
+                    <img src={background} className='AboutSection_Background' />
                 </Flex>
             </div>
         </Flex>
-        <div className='AboutSection_Icons'>
-            <img src={Star} className='AboutSection_Star' />
-            <img src={Arrow} className='AboutSection_Arrow' />
-            <img src={Wave} className='AboutSection_Wave' />
-            <img src={Chain} className='AboutSection_Chain' />
+        <div className='AboutSection_Texts'>
+            <div className='Texts_Contactless'>
+                <img src={Star} className='Contactless_Image' />
+                <div className='Contactless_Main main'>Contactless</div>
+                <div className='Contactless_Other other'>
+                    Budss uses near field<br/>
+                    communication (NFC) for<br/>
+                    making contactless payments.
+                </div>
+            </div>
+            <div className='Texts_Increased'>
+                <img src={Arrow} className='Increased_Image' />
+                <div className='Increased_Main main'>Increased<br/>Buying Power</div>
+                <div className='Increased_Other other'>
+                    Returning customers spend<br/>
+                    up to 3X more.
+                </div>
+            </div>
+            <div className='Texts_Analytics'>
+                <img src={Wave} className='Analytics_Image' />
+                <div className='Analytics_Main main'>Analytics<br/>&amp; Insights</div>
+                <div className='Analytics_Other other'>
+                    Gain a holistic view into your<br/>
+                    customers’ buying behavior<br/>
+                    & purchasing patterns. 
+                </div>
+            </div>
+            <div className='Texts_Fraud'>
+                <img src={Chain} className='Fraud_Image' />
+                <div className='Fraud_Main main'>Fraud<br/>Protection</div>
+                <div className='Fraud_Other other'>
+                    Budss handles all payments<br/>
+                    with a fraud prevention<br/>
+                    algorithm to flag high risk<br/>
+                    purchases & a user set PIN code<br/>
+                    to keep payment info secure.
+                </div>
+            </div>
         </div>
-        <div className="AboutSection_MainText">
-            <div>Contactless</div>
-            <div className='MainText_Increased'>Increased<br/>Buying Power</div>
-            <div className='MainText_Analytics'>Analytics<br/>&amp; Insights</div>
-            <div className='MainText_Fraud'>Fraud<br/>Protection</div>
-        </div>
-        <Flex className="AboutSection_OtherText" alignItems="flex-start" flexDirection="row" flexWrap="wrap" justifyContent="flex-start" width="800px" height="460px">
-            <div className='OtherText_NFC'>
-            Budss uses near field<br/>
-            communication (NFC) for<br/>
-            making contactless payments.
-            </div>
-            <div className='OtherText_Spend'>
-            Returning customers spend<br/>
-            up to 3X more.
-            </div>
-            <div className='OtherText_Patterns'>
-            Gain a holistic view into your<br/>
-            customers’ buying behavior<br/>
-            & purchasing patterns. 
-            </div>
-            <div className='OtherText_Secure'>
-            Budss handles all payments<br/>
-            with a fraud prevention<br/>
-            algorithm to flag high risk<br/>
-            purchases & a user set PIN code<br/>
-            to keep payment info secure.
-            </div>
-        </Flex>
         <div className='AboutSection_Logo'>
             <img src={BudssLogo} alt="Budss logo" />
         </div>
