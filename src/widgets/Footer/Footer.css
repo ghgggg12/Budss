@@ -115,7 +115,7 @@
         text-decoration: underline;
     }
 }
-.Footer_Column1, Footer_Column2{
+.Footer_Column1, .Footer_Column2{
     display: none;
 }
 /* adaptive for mobile */
