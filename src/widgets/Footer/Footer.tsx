@@ -1,8 +1,8 @@
 import { BudssLogo } from '@shared/assets/svg/svg.tsx';
 import Button from '@mui/material/Button';
 import ContactButton from '@shared/ui/Button/Button.tsx';
-import AppStore from '@shared/assets/svg/appstore.svg';
-import GooglePlay from '@shared/assets/svg/googleplay.svg';
+import AppStore from '@shared/assets/svg/buttons/appstore.svg';
+import GooglePlay from '@shared/assets/svg/buttons/googleplay.svg';
 import './Footer.css';
 
 export const Footer: React.FC = () => {
@@ -52,7 +52,7 @@ export const Footer: React.FC = () => {
               <a href='example.com' className='Buttons_Customers Buttons'>
                 Terms Of Use - Sellers & Customers
               </a>
-              <div className='Buttons_Contact'>
+              <div className='Buttons_Contacts'>
                 <ContactButton />
               </div>
               <div className='Buttons_AppStore'>
