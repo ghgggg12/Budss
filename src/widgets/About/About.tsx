@@ -9,7 +9,7 @@ import './About.css';
 
 export const AboutSection = () => (
     <section className='AboutSection'>
-        <Flex className='AboutSection_Text' justifyContent="center" flexDirection="column" width="550px" height="auto">
+        <div className='AboutSection_Text'>
             <Flex className='AboutSection_Header' alignItems='flex-start'>
                 About Budss
             </Flex>
@@ -21,7 +21,7 @@ export const AboutSection = () => (
                     <img src={background} className='AboutSection_Background' />
                 </Flex>
             </div>
-        </Flex>
+        </div>
         <div className='AboutSection_Texts'>
             <div className='Texts_Contactless'>
                 <img src={Star} className='Contactless_Image' />

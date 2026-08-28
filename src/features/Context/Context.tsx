@@ -8,11 +8,11 @@ interface FormContextType {
 export const FormContext = createContext<FormContextType | undefined>(undefined);
 
 export const FormProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [display, setDisplay] = useState(false);
+  const [display, setDisplay] = useState(true);
 
   return (
     <FormContext.Provider value={{ display, setDisplay }}>
-      {children};
+      {children}
     </FormContext.Provider>
   );
 };

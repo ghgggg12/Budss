@@ -85,7 +85,7 @@ export const Form: React.FC = () => {
         )}
         <div className='Form_Text'>
             <span>By submitting this form you are agreeing to Budss's<br/></span>
-            <a href='https://www.lunarclient.com/privacy' target='_blank' className="Text_Privacy">Privacy Policy</a>
+            <a href='https://www.lunarclient.com/privacy' target='_blank' className="Text_Privacy">&nbsp;Privacy Policy</a>
             <span>&nbsp;and&nbsp;</span>
             <a href='https://www.lunarclient.com/terms' target='_blank' className="Text_Terms">Terms of Use</a>
         </div>
