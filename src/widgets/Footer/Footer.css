@@ -1,10 +1,19 @@
 .Footer_Row1{
+    display: flex;
     margin-top:40px;
 }
 .Row1_Logo{
+    display: flex;
+    width: 330px;
+    align-items: center;
+    justify-content: flex-start;
     margin-left: 4%;
 }
+.Logo_Image{
+    width: 37px;
+}
 .Logo_Text{
+    display: flex;
     color: #fff;
     margin-left: 8px;
     font-size: 37px;
@@ -16,6 +25,10 @@
     text-transform: lowercase;
 }
 .Row1_About{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
     gap: 40px;
 }
 .About_Business, .About_Customers{
@@ -34,6 +47,10 @@
     }
 }
 .Row1_Buttons{
+    display: flex;
+    width: 1260px;
+    align-items: center;
+    justify-content: flex-end;
     gap: 20px;
     margin-right: 4%;
 }
@@ -43,6 +60,10 @@
     color: #fff;
 }
 .Footer_Line{
+    display: flex;
+    width: 92%;
+    align-items: center;
+    justify-content: center;
     margin-left: 4%;
     margin-top: 30px;
     transform: rotate(0deg);
@@ -53,10 +74,14 @@
     border-bottom: 1px solid #444;
 }
 .Footer_Row2{
+    display: flex;
     margin-top: 20px;
     margin-bottom: 25px;
 }
 .Row2_Copyright{
+    display: flex;
+    width: 800px;
+    height: 20px;
     margin-left: 4%;
     color: #b9b9b9;
     font-size: 14px;
@@ -68,6 +93,9 @@
     text-transform: none;
 }
 .Row2_Buttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
     gap: 20px;
     margin-right: 4%;
 }
@@ -85,6 +113,106 @@
 
     &:hover{
         text-decoration: underline;
+    }
+}
+.Footer_Column1, Footer_Column2{
+    display: none;
+}
+/* adaptive for mobile */
+@media (max-width: 767px) {
+    .BusinessSection_Footer{
+        height: auto;
+    }
+    .Footer_Column1{
+        display: flex;
+        margin-top: 25px;
+        margin-left: 16px;
+    }
+    .Column1_Logo{
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        height: 23px;
+        width: 767px;
+    }
+    .Logo_Image{
+        display: flex;
+        width: 19px;
+        height: 23px;
+    }
+    .Logo_Text{
+        display: flex;
+        margin-top: 3px;
+        color: #fff;
+        font-size: 29.600000381469727px;
+        font-style: normal;
+        text-align: center;
+        font-family: "Outfit",sans-serif;
+        font-weight: 600;
+        line-height: 14px;
+        text-transform: lowercase;
+    }
+    .Column1_Buttons{
+        display: flex;
+        width: 100%;
+        flex-shrink: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin-top: 70px;
+    }
+    .Buttons{
+        color: #fff;
+        font-size: 20px;
+        font-style: normal;
+        margin-top: 0;
+        text-align: center;
+        font-family: "Outfit",sans-serif;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 0;
+        letter-spacing: 0;
+        text-transform: none;
+        text-decoration: none;
+
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    .Buttons_Contact{
+        width: 182px;
+        height: 57px;
+        margin-top: 20px;
+    }
+    .Buttons_AppStore{
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .Buttons_AppStore, .Buttons_GooglePlay{
+        width: 194px;
+        height: 57px;
+    }
+    .Footer_Line{
+        display: flex;
+    }
+    .Column2_Copyright{
+        display: flex;
+        width: 100%;
+        height: 20px;
+        margin-left: 4%;
+        color: #b9b9b9;
+        font-size: 14px;
+        font-style: normal;
+        text-align: left;
+        font-family: "Outfit", sans-serif;
+        font-weight: 200;
+        line-height: 20px;
+        text-transform: none;
+        margin-top: 10px;
+    }
+    .Footer_Row1, .Footer_Row2{
+        display: none;
     }
 }
 /* adaptive for 1440 */
