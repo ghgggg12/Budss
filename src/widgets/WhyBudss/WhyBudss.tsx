@@ -1,12 +1,12 @@
 import { Flex } from '@shared/ui/types/flex/Flex.tsx';
-import backgroundText from '@shared/assets/svg/backgroundText.svg';
-import Mobile from '@shared/assets/svg/Mobile.svg';
-import MobileAdapt from '@shared/assets/svg/MobileAdapt.svg';
-import Basket1 from '@shared/assets/svg/Basket1.svg';
-import Basket2 from '@shared/assets/svg/Basket2.svg';
-import Basket3 from '@shared/assets/svg/Basket3.svg';
-import BlueMan from '@shared/assets/svg/BlueMan.svg';
-import PurpleMan from '@shared/assets/svg/PurpleMan.svg';
+import backgroundText from '@shared/assets/svg/other/backgroundText.svg';
+import Mobile from '@shared/assets/svg/other/Mobile.svg';
+import MobileAdapt from '@shared/assets/svg/other/MobileAdapt.svg';
+import Basket1 from '@shared/assets/svg/icons/Basket1.svg';
+import Basket2 from '@shared/assets/svg/icons/Basket2.svg';
+import Basket3 from '@shared/assets/svg/icons/Basket3.svg';
+import BlueMan from '@shared/assets/svg/other/BlueMan.svg';
+import PurpleMan from '@shared/assets/svg/other/PurpleMan.svg';
 import './WhyBudss.css';
 
 export const WhyBudss = () => (

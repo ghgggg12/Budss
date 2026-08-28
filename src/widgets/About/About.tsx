@@ -1,10 +1,10 @@
 import { Flex } from '@shared/ui/types/flex/Flex.tsx'
-import background from '@shared/assets/svg/backgroundText.svg';
-import BudssLogo from '@shared/assets/svg/logo.svg';
-import Star from '@shared/assets/svg/star.svg'
-import Wave from '@shared/assets/svg/wave.svg'
-import Arrow from '@shared/assets/svg/arrow.svg'
-import Chain from '@shared/assets/svg/chain.svg'
+import background from '@shared/assets/svg/other/backgroundText.svg';
+import BudssLogo from '@shared/assets/svg/logos/logo.svg';
+import Star from '@shared/assets/svg/icons/star.svg'
+import Wave from '@shared/assets/svg/icons/wave.svg'
+import Arrow from '@shared/assets/svg/icons/arrow.svg'
+import Chain from '@shared/assets/svg/icons/chain.svg'
 import './About.css';
 
 export const AboutSection = () => (

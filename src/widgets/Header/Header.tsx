@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flex } from '@shared/ui/types/flex/Flex.tsx';
 import { BudssLogo } from '@shared/assets/svg/svg.tsx';
-import Burger from '@shared/assets/svg/Burger.svg';
+import Burger from '@shared/assets/svg/buttons/Burger.svg';
 import Button from '@mui/material/Button';
 import ContactButton from '@shared/ui/Button/Button.tsx';
 import { useMenuContext } from '@/features/Context/MenuContext.tsx';

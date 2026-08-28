@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import { Flex } from '@shared/ui/types/flex/Flex.tsx'
-import Cross from '@shared/assets/svg/cross.svg';
+import Cross from '@shared/assets/svg/buttons/cross.svg';
 import Button from '@mui/material/Button';
-import USA from '@shared/assets/svg/united-states-of-america.svg';
+import USA from '@shared/assets/svg/icons/united-states-of-america.svg';
 import { ThankYou } from '../Thank-you/ThankYou.tsx';
 import type { SubmitHandler } from "react-hook-form";
 import { useForm } from "react-hook-form";

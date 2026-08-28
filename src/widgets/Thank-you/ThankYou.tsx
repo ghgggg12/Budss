@@ -1,8 +1,8 @@
 import React from 'react';
 import { Flex } from '@shared/ui/types/flex/Flex.tsx'
-import Cross from '@shared/assets/svg/cross.svg';
+import Cross from '@shared/assets/svg/buttons/cross.svg';
 import Button from '@mui/material/Button';
-import Like from '@shared/assets/svg/Like.svg';
+import Like from '@shared/assets/svg/other/Like.svg';
 import { useFormContext } from '@features/Context/FormContext';
 import './ThankYou.css';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuCross from '@shared/assets/svg/MenuCross.svg';
+import MenuCross from '@shared/assets/svg/buttons/MenuCross.svg';
 import Button from '@mui/material/Button';
 import ContactButton from '@shared/ui/Button/Button.tsx';
 import { useMenuContext } from '@/features/Context/MenuContext.tsx';

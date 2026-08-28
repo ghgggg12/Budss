@@ -1,13 +1,13 @@
 import { Flex } from '@shared/ui/types/flex/Flex.tsx';
-import Facebook from '@shared/assets/svg/Facebook.svg';
-import Instagram from '@shared/assets/svg/Instagram.svg';
-import Tiktok from '@shared/assets/svg/Tiktok.svg';
-import Twitter from '@shared/assets/svg/Twitter.svg';
-import Logos from '@shared/assets/svg/Logos.svg';
+import Facebook from '@shared/assets/svg/logos/Facebook.svg';
+import Instagram from '@shared/assets/svg/logos/Instagram.svg';
+import Tiktok from '@shared/assets/svg/logos/Tiktok.svg';
+import Twitter from '@shared/assets/svg/logos/Twitter.svg';
+import Logos from '@shared/assets/svg/logos/Logos.svg';
 import ContactButton from '@shared/ui/Button/Button.tsx';
-import Clover from '@shared/assets/svg/Clover.svg';
-import SquareShopify from '@shared/assets/svg/SquareShopify.svg';
-import WooSpace from '@shared/assets/svg/WooSpace.svg';
+import Clover from '@shared/assets/svg/logos/Clover.svg';
+import SquareShopify from '@shared/assets/svg/logos/SquareShopify.svg';
+import WooSpace from '@shared/assets/svg/logos/WooSpace.svg';
 import './Brand.css';
 
 export const Brand = () => (
