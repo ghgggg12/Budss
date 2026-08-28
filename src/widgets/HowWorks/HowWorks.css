@@ -51,6 +51,7 @@
 }
 @media (max-width: 767px) {
     .HowWorksSection{
+        display: flex;
         position: relative;
         margin-top: 80px;
         min-height: 460px;
@@ -61,9 +62,6 @@
         width: auto;
         height: 461px;
         z-index: 10;
-    }
-    .HowWorksSection_Text{
-        gap: 90px;
     }
     .Text{
         width: auto;

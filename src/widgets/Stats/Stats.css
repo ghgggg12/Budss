@@ -46,7 +46,7 @@
         margin-top: 40px;
         height: 286px;
         width: 100%;
-        padding: 0 0px 0 16px;
+        padding: 0 0px 0 0px;
     }
     .StatsSection_Texts{
         flex-direction: column;

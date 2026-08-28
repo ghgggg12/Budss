@@ -125,15 +125,16 @@
     }
     .Footer_Column1{
         display: flex;
-        margin-top: 25px;
-        margin-left: 16px;
+        width: 90%;
+        padding-top: 25px;
+        padding-left: 16px;
     }
     .Column1_Logo{
         display: flex;
         position: absolute;
         flex-direction: row;
         height: 23px;
-        width: 767px;
+        width: 90%;
     }
     .Logo_Image{
         display: flex;
@@ -198,7 +199,7 @@
     }
     .Column2_Copyright{
         display: flex;
-        width: 100%;
+        width: 90%;
         height: 20px;
         margin-left: 4%;
         color: #b9b9b9;

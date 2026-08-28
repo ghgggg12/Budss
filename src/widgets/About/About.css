@@ -99,7 +99,7 @@
         width: 100%;
     }
     .AboutSection_Text{
-        width: 100%;
+        width: 90%;
         margin: 0px 0px 0px 16px;
     }
     .AboutSection_Header{
@@ -133,7 +133,7 @@
         top: 0;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 100%;
+        width: 90%;
         gap: 91px;
     }
     .main{
