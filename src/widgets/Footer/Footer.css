@@ -194,6 +194,9 @@
         width: 194px;
         height: 57px;
     }
+    .Footer_Column2{
+        display: flex;
+    }
     .Footer_Line{
         display: flex;
     }
