@@ -6,7 +6,7 @@ import USA from '@shared/assets/svg/united-states-of-america.svg';
 import { ThankYou } from '../Thank-you/ThankYou.tsx';
 import type { SubmitHandler } from "react-hook-form";
 import { useForm } from "react-hook-form";
-import { useFormContext } from '@features/Context/Context.tsx';
+import { useFormContext } from '@features/Context/FormContext.tsx';
 import './Form.css';
 
 interface FormI{

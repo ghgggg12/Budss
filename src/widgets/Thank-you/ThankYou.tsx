@@ -3,7 +3,7 @@ import { Flex } from '@shared/ui/types/flex/Flex.tsx'
 import Cross from '@shared/assets/svg/cross.svg';
 import Button from '@mui/material/Button';
 import Like from '@shared/assets/svg/Like.svg';
-import { useFormContext } from '@features/Context/Context.tsx';
+import { useFormContext } from '@features/Context/FormContext';
 import './ThankYou.css';
 
 export const ThankYou: React.FC = () => {
