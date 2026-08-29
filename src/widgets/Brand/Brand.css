@@ -85,6 +85,15 @@
 .BrandSection_LogosAdapt{
     display: none;
 }
+/* adaptive for computer */
+@media (min-width: 1440px) {
+    .About_Images{
+        margin-right: 10%;
+    }
+    .Logos_Image{
+        width: 100%;
+    }
+}
 /* adaptive for mobile */
 @media (max-width: 767px) {
     .BrandSection{
