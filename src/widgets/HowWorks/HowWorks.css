@@ -63,6 +63,9 @@
         height: 461px;
         z-index: 10;
     }
+    .HowWorksSection_Text{
+        gap: 90px
+    }
     .Text{
         width: auto;
         height: 51px;
