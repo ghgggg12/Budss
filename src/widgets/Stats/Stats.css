@@ -53,6 +53,7 @@
         align-items: flex-start;
         justify-content: center;
         gap: 40px;
+        margin-left: 16px;
         height: 286px;
         width: 100%;
     }
