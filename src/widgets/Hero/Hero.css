@@ -75,6 +75,8 @@
         margin: 51px 16px 0px 16px ;
     }
     .Info_Header{
+        display: flex;
+        width: 90%;
         font-size: 40px;
         font-weight: 700;
         line-height: 42px;

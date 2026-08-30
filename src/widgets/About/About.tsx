@@ -27,8 +27,8 @@ export const AboutSection = () => (
                 <img src={Star} className='Contactless_Image' />
                 <div className='Contactless_Main main'>Contactless</div>
                 <div className='Contactless_Other other'>
-                    Budss uses near field<br/>
-                    communication (NFC) for<br/>
+                    Budss uses near field&nbsp;<br/>
+                    communication (NFC) for&nbsp;<br/>
                     making contactless payments.
                 </div>
             </div>
@@ -36,7 +36,7 @@ export const AboutSection = () => (
                 <img src={Arrow} className='Increased_Image' />
                 <div className='Increased_Main main'>Increased&nbsp;<br/>Buying Power</div>
                 <div className='Increased_Other other'>
-                    Returning customers spend<br/>
+                    Returning customers spend&nbsp;<br/>
                     up to 3X more.
                 </div>
             </div>
@@ -45,7 +45,7 @@ export const AboutSection = () => (
                 <div className='Analytics_Main main'>Analytics&nbsp;<br/>&amp; Insights</div>
                 <div className='Analytics_Other other'>
                     Gain a holistic view into your&nbsp;<br/>
-                    customers’ buying behavior<br/>
+                    customers’ buying behavior&nbsp;<br/>
                     & purchasing patterns. 
                 </div>
             </div>
@@ -53,10 +53,10 @@ export const AboutSection = () => (
                 <img src={Chain} className='Fraud_Image' />
                 <div className='Fraud_Main main'>Fraud&nbsp;<br/>Protection</div>
                 <div className='Fraud_Other other'>
-                    Budss handles all payments<br/>
+                    Budss handles all payments&nbsp;<br/>
                     with a fraud prevention<br/>
                     &nbsp;algorithm to flag high risk&nbsp;<br/>
-                    purchases & a user set PIN code<br/>
+                    purchases & a user set PIN code&nbsp;<br/>
                     to keep payment info secure.
                 </div>
             </div>

@@ -9,10 +9,10 @@ export const Hero: React.FC = () => {
   return (
     <section className='BusinessSection'>
       <div className="BusinessSection_Info">
-        <Flex className="Info_Header">
-          Everyone
-          <br />is an Influencer
-        </Flex>
+        <div className="Info_Header">
+          Everyone&nbsp;
+          <br/>is an Influencer
+        </div>
 
         <Flex className="Info_About">
           Budss is a payments as a service and WOM engine dedicated
