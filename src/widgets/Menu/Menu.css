@@ -9,6 +9,7 @@
         top: 0;
         z-index: 200;
         background-color: #181818;
+        background-attachment: fixed;
         height: 100%;
         width: 100%;
     }
