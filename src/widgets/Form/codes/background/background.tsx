@@ -1,6 +1,6 @@
 import React from 'react';
 import './background.css';
-import { useFormContext } from '../../../../features/Context/Context.tsx';
+import { useFormContext } from '@features/Context/FormContext';
 
 export const BackgroundForm: React.FC = () => {
     const { display } = useFormContext();

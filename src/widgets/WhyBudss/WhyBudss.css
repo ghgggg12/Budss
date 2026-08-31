@@ -15,8 +15,11 @@
     text-transform: none;
 }
 .WhyBudssSection_About{
+    display: flex;
+    justify-content: center;
     position: relative;
     color: #fff;
+    height: 100px;
     font-size: 36px;
     font-style: normal;
     text-align: center;
@@ -38,20 +41,32 @@
     margin-top: 60px;
 }
 
+.Containers_Row1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 .Row1_Container1{
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-color: #f5f5f5;
     overflow: hidden;
     box-sizing: border-box;
     border-radius: 30px;
-    max-width: 733px;
-    min-height: 362px;
+    width: 733px;
+    height: 362px;
 }
 .Container1_Img img{
+    display: flex;
+    justify-content: flex-start;
     position: absolute;
+    top: 0;
     border-radius: 30px 30px 0px 30px;
 }
 .Container1_Header{
+    display: flex;
+    justify-content: flex-end;
     position: relative;
     top: 40px;
     right: 40px;
@@ -66,6 +81,8 @@
     margin-bottom: 20px
 }
 .Container1_About{
+    display: flex;
+    justify-content: flex-end;
     position: relative;
     color: #000;
     font-size: 20px;
@@ -80,16 +97,20 @@
 }
 
 .Row1_Container2{
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin-left: 20px;
     background-color: #f5f5f5;
     overflow: hidden;
     box-sizing: border-box;
     border-radius: 30px;
-    max-width: 547px;
-    min-height: 362px;
+    width: 547px;
+    height: 362px;
 }
 .Container2_Header{
+    display: flex;
+    justify-content: flex-start;
     position: relative;
     color: #000;
     font-size: 48px;
@@ -104,6 +125,8 @@
     margin-bottom: 20px;
 }
 .Container2_About{
+    display: flex;
+    justify-content: flex-start;
     position: relative;
     color: #000;
     font-size: 20px;
@@ -133,20 +156,27 @@
 }
 
 .Containers_Row2{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-direction: row;
     position: relative;
     height: 300px;
     margin-top: 20px;
 }
 .Row2_Container3{
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-color: #f5f5f5;
     overflow: hidden;
     box-sizing: border-box;
     border-radius: 30px;
-    max-width: 547px;
-    min-height: 362px;
+    width: 547px;
+    height: 362px;
 }
 .Container3_Header{
+    display: flex;
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
@@ -160,6 +190,7 @@
     text-transform: none;
 }
 .Container3_About{
+    display: flex;
     margin-left: 40px;
     color: #000;
     font-size: 20px;
@@ -171,22 +202,26 @@
     text-transform: none;
 }
 .Container3_Img{
+    display: flex;
     position: absolute;
     bottom: 0px;
     left: 345px;
 }
 
 .Row2_Container4{
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin-left: 20px;
     background-color: #f5f5f5;
     overflow: hidden;
     box-sizing: border-box;
     border-radius: 30px;
-    max-width: 733px;
-    min-height: 362px;
+    width: 733px;
+    height: 362px;
 }
 .Container4_Header{
+    display: flex;
     margin-left: 40px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -200,6 +235,7 @@
     text-transform: none;
 }
 .Container4_About{
+    display: flex;
     margin-left: 40px;
     color: #000;
     font-size: 20px;
@@ -211,7 +247,256 @@
     text-transform: none;
 }
 .Container4_Img{
+    display: flex;
+    justify-content: flex-end;
     position: absolute;
     right: 43px;
     bottom: 0;
+}
+/* adaptive for mobile */
+@media (max-width: 767px) {
+    .WhyBudssSection{
+        position: relative;
+        overflow: hidden;
+        height: auto;
+        margin-top: 40px;
+    }
+    .WhyBudssSection_Header{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    br {
+        display: none;
+    }
+    .WhyBudssSection_About{
+        font-size: 22px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 29px;
+    }
+    .WhyBudssSection_backgroundText img{
+        position: absolute;
+        top: 95px;
+        right: 20px;
+        width: 230px;
+        z-index: 0;
+    }
+
+    .WhyBudssSection_Containers{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .Containers_Row1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Row1_Container1{
+        position: relative;
+        flex-direction: column;
+        background-color: #f5f5f5;
+        overflow: hidden;
+        box-sizing: border-box;
+        border-radius: 30px;
+        width: 343px;
+        height: 362px;
+    }
+    .Container1_Header{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 0px;
+        top: 20px;
+        left: 20px;
+        color: #000;
+        font-size: 32px;
+        font-style: normal;
+        text-align: left;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .Container1_About{
+        position: relative;
+        color: #000;
+        width: 323px;
+        font-size: 16px;
+        font-style: normal;
+        margin-top: 0;
+        text-align: left;
+        font-family: "Outfit",sans-serif;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 0;
+        letter-spacing: 0;
+        text-transform: none;
+        text-decoration: none;
+        left: 20px;
+    }
+    .Container1_ImgAdapt img{
+        display: flex;
+        position: absolute;
+        top: 170px;
+        left: -10px;
+        height: 193px;
+        width: 343px;
+        border-radius: 30px 30px 0px 30px;
+    }
+    .Container1_Img{
+        display: none;
+    }
+
+    .Row1_Container2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 20px;
+        background-color: #f5f5f5;
+        overflow: hidden;
+        box-sizing: border-box;
+        border-radius: 30px;
+        width: 343px;
+        height: 362px;
+    }
+    .Container2_Header{
+        position: relative;
+        color: #000;
+        width: 290px;
+        height: 70px;
+        font-size: 32px;
+        font-style: normal;
+        text-align: left;
+        font-weight: 700;
+        line-height: 34px;
+        margin-bottom: 0px;
+        top: 20px;
+        left: 20px;
+    }
+    .Container2_About{
+        position: relative;
+        color: #000;
+        width: 303px;
+        height: 120px;
+        font-size: 16px;
+        text-align: left;
+        font-weight: 400;
+        left: 20px;
+    }
+    .Container2_Basket1{
+        position: absolute;
+        right: 0px;
+        width: 61px;
+        height: 126px;
+        bottom: 16px;
+    }
+    .Container2_Basket2{
+        position: absolute;
+        bottom: 0px;
+        width: 93px;
+        height: 86px;
+        right: 115px;
+    }
+    .Container2_Basket3{
+        position: absolute;
+        bottom: 0px;
+        left: 10px;
+        width: 72px;
+        height: 64px;
+    }
+
+
+    .Containers_Row2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .Row2_Container3{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 0px;
+        background-color: #f5f5f5;
+        overflow: hidden;
+        box-sizing: border-box;
+        border-radius: 30px;
+        width: 343px;
+        height: 313px;
+    }
+    .Container3_Header{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 16px;
+        font-size: 32px;
+        width: 305px;
+        height: 102px;
+        text-align: left;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .Container3_About{
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        font-style: normal;
+        text-align: left;
+        font-weight: 400;
+        width: 305px;
+        height: 60px;
+        line-height: normal;
+    }
+    .Container3_Img{
+        position: absolute;
+        bottom: 0px;
+        left: 140px;
+    }
+
+    .Row2_Container4{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 20px;
+        background-color: #f5f5f5;
+        overflow: hidden;
+        box-sizing: border-box;
+        border-radius: 30px;
+        width: 343px;
+        height: 395px;
+    }
+    .Container4_Header{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 16px;
+        font-size: 32px;
+        width: 305px;
+        height: 72px;
+        text-align: left;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .Container4_About{
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        text-align: left;
+        width: 279px;
+        height: 100px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .Container4_Img{
+        position: absolute;
+        width: 143px;
+        height: 185px;
+        bottom: 0px;
+        left: 145px;
+    }
 }

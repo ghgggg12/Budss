@@ -11,13 +11,14 @@
 }
 .Image_Phone{
     display: flex;
+    width: auto;
     z-index: 10;
 }
 .HowWorksSection_Text{
     position: absolute;
     bottom: 70px;
     width: 100%;
-    gap: 120px;
+    gap: 110px;
     z-index: 9;
     overflow: hidden;
 }
@@ -46,5 +47,35 @@
     }
     to{
         transform: translateX(0);
+    }
+}
+@media (max-width: 767px) {
+    .HowWorksSection{
+        display: flex;
+        position: relative;
+        margin-top: 80px;
+        min-height: 460px;
+        overflow: hidden;
+    }
+    .Image_Phone{
+        display: flex;
+        width: auto;
+        height: 461px;
+        z-index: 10;
+    }
+    .HowWorksSection_Text{
+        gap: 90px;
+    }
+    .Text{
+        width: auto;
+        height: 51px;
+    }
+    @keyframes marquee{
+        from{
+            transform: translateX(-216%);
+        }
+        to{
+            transform: translateX(0);
+        }
     }
 }
