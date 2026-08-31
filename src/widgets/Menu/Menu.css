@@ -1,0 +1,76 @@
+.BusinessSection_Menu{
+    display: none;
+}
+/* adaptive for mobile */
+@media (max-width: 767px) {
+    .BusinessSection_Menu{
+        display: flex;
+        position: fixed;
+        top: 0;
+        z-index: 200;
+        background-color: #181818;
+        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+    }
+    .Menu_Buttons{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .Buttons_Close{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 100%;
+        height: 71px;
+    }
+    .Close_Cross.MuiButton-root{
+        min-width: 40px;
+        height: 40px;
+        padding: 0px;
+        margin-top: 16px;
+        margin-right: 16px;
+    }
+    .Cross{
+        width: 40px;
+        margin: 0;
+        display: block;
+        overflow: hidden;
+        box-sizing: border-box;
+        min-height: 40px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .Buttons_Contact{
+        margin-top: 125px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 343px;
+    }
+    .Buttons_Other{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25%;
+        margin-left: 16px;
+        flex-shrink: 0;
+    }
+    .ButtonsMenu{
+        color: #fff;
+        font-size: 20px;
+        margin-top: 16px;
+        font-style: normal;
+        text-align: left;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: none;
+        text-decoration: none;
+
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

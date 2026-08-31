@@ -1,5 +1,7 @@
 header{
     position: relative;
+    height: auto;
+    width: auto;
     z-index: 10;
 }
 .Header_Background{
@@ -23,7 +25,7 @@ header{
     text-align: center;
     text-transform: none;
     width: 175px;
-    height: 31px;
+    height: 34px;
     background-color: #181818;
     color: #ffffff;
     border-radius: 20px 20px 0 0;
@@ -35,7 +37,7 @@ header{
     text-align: center;
     text-transform: none;
     width: 175px;
-    height: 31px;
+    height: 34px;
     /*background-color: #181818;*/
     color: #000000;
     border-radius: 20px 20px 0 0;
@@ -60,7 +62,56 @@ header{
     margin-top: 3px;
 }
 .Header_Button{
+    display: flex;
+    justify-content: flex-end;
     position: absolute;
     bottom: -8px;
     right: 55px;
+}
+.Header_Burger.MuiButton-root{
+    display: none;
+    position: absolute;
+    color: #181818;
+    right: 0;
+    margin: 16px;
+}
+.BusinessSection_Menu{
+    display: none;
+}
+/* adaptive for mobile */
+@media (max-width: 767px) {
+    .Header_Background{
+        width: 100%;
+        height: 45px;
+    }
+    .Header_Buttons{
+        margin-left: 0px;
+    }
+    .Header_Business.MuiButton-root{
+        width: 165px;
+        height: 38px;
+    }
+    .Header_Customers.MuiButton-root{
+        width: 165px;
+        height: 38px;
+    }
+    .Header_HeaderBudss{
+        margin: 16px;
+    }
+    .Header_Button{
+        display: none;
+    }
+    .Header_Burger.MuiButton-root{
+        display: flex;
+    }
+}
+/* adaptive for computer */
+@media (min-width: 1440px) { 
+    header{
+        height: 109px;
+    }
+    .Header_Background{
+        width: 100%;
+        height: 42px;
+    }
 }

@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
-import { Flex } from '../../shared/ui/types/flex/Flex.tsx'
-import Cross from '../../shared/assets/svg/cross.svg';
+import { Flex } from '@shared/ui/types/flex/Flex.tsx'
+import Cross from '@shared/assets/svg/buttons/cross.svg';
 import Button from '@mui/material/Button';
-import USA from '../../shared/assets/svg/united-states-of-america.svg';
+import USA from '@shared/assets/svg/icons/united-states-of-america.svg';
 import { ThankYou } from '../Thank-you/ThankYou.tsx';
 import type { SubmitHandler } from "react-hook-form";
 import { useForm } from "react-hook-form";
-import { useFormContext } from '../../features/Context/Context.tsx';
+import { useFormContext } from '@features/Context/FormContext.tsx';
 import './Form.css';
 
 interface FormI{
@@ -85,7 +85,7 @@ export const Form: React.FC = () => {
         )}
         <div className='Form_Text'>
             <span>By submitting this form you are agreeing to Budss's<br/></span>
-            <a href='https://www.lunarclient.com/privacy' target='_blank' className="Text_Privacy">Privacy Policy</a>
+            <a href='https://www.lunarclient.com/privacy' target='_blank' className="Text_Privacy">&nbsp;Privacy Policy</a>
             <span>&nbsp;and&nbsp;</span>
             <a href='https://www.lunarclient.com/terms' target='_blank' className="Text_Terms">Terms of Use</a>
         </div>

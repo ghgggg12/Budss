@@ -1,11 +1,18 @@
 import React from 'react';
-import { Flex } from '../../shared/ui/types/flex/Flex.tsx';
-import { BudssLogo } from '../../shared/assets/svg/svg.tsx';
+import { Flex } from '@shared/ui/types/flex/Flex.tsx';
+import { BudssLogo } from '@shared/assets/svg/svg.tsx';
+import Burger from '@shared/assets/svg/buttons/Burger.svg';
 import Button from '@mui/material/Button';
-import ContactButton from '../../shared/ui/Button/Button.tsx';
+import ContactButton from '@shared/ui/Button/Button.tsx';
+import { useMenuContext } from '@/features/Context/MenuContext.tsx';
 import './Header.css';
 
 export const Header: React.FC = () => {
+  const { isOpen, setIsOpen } = useMenuContext();
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <header className='BusinessSection_Header'>
       <div className="Header_Background" />
@@ -18,9 +25,12 @@ export const Header: React.FC = () => {
         </Button>
       </Flex>
 
-      <Flex className="Header_Button" justifyContent="flex-end">
+      <div className="Header_Button">
         <ContactButton />
-      </Flex>
+      </div>
+      <Button className='Header_Burger' onClick={toggleMenu}>
+        <img src={Burger} alt='☰'/>
+      </Button>
 
       <Flex flexDirection="row" width="135px" className="Header_HeaderBudss">
         <Flex className="icon-budss" width="37px">

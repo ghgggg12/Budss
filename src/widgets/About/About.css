@@ -4,6 +4,11 @@
     min-height: 953px;
 }
 .AboutSection_Text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 550px;
+    height: auto;
     margin-bottom: 150px;
     margin-left: 60px;
 }
@@ -35,6 +40,39 @@
     margin-bottom: 0;
     z-index: 1;
 }
+.AboutSection_Texts{
+    display: flex;
+    position: absolute;
+    margin-left: 588px;
+    margin-top: 190px;
+    top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    gap: 91px;
+}
+.main{
+    color: #fff;
+    padding: 10px 0 20px 0;
+    font-size: 48px;
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    line-height: 51px;
+    text-transform: none;
+}
+.other{
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    line-height: 29px;
+    text-transform: none;
+}
+.Texts_Fraud{
+    margin-left: 20px;
+}
 .AboutSection_Background{
     position: absolute;
     left: 115px;
@@ -45,69 +83,6 @@
     border-radius: 30px 30px 30px 30px;
     background-color: #a64ced;
 }
-.AboutSection_Icons{
-    position: absolute;
-    top: 200px;
-    left: 570px;
-    display: flex;
-    gap: 270px;
-    width: auto;
-}
-.AboutSection_Chain{
-    position: relative;
-    left: -10px;
-}
-.AboutSection_MainText{
-    position: absolute;
-    top: 300px;
-    left: 560px;
-    display: flex;
-    gap: 110px;
-    color: #fff;
-    font-size: 48px;
-    text-align: left;
-    font-family: "Outfit", sans-serif;
-    font-weight: 600;
-    line-height: 51px;
-}
-.MainText_Analytics{
-    position: relative;
-    top: 50px;
-}
-.MainText_Fraud{
-    position: relative;
-    top: 50px;
-    left: 50px;
-}
-.AboutSection_OtherText{
-    position: absolute;
-    left: 560px;
-    display: flex;
-    gap: 50px;
-    color: #fff;
-    font-size: 24px;
-    text-align: left;
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    line-height: 29px;
-}
-.OtherText_NFC{
-    position: relative;
-    bottom: 110px;
-}
-.OtherText_Spend{
-    position: relative;
-    bottom: 60px;
-}
-.OtherText_Patterns{
-    position: relative;
-    top: 50px;
-}
-.OtherText_Secure{
-    position: relative;
-    top: 50px;
-    left: 20px;
-}
 .AboutSection_Logo{
     display: flex;
     position: absolute;
@@ -115,4 +90,85 @@
     width: 420px;
     min-height: 482;
     z-index: 0;
+}
+/* adaptive for mobile */
+@media (max-width: 767px) {
+    .AboutSection{
+        margin-top: 40px;
+        height: auto;
+        width: 100%;
+    }
+    .AboutSection_Text{
+        width: 90%;
+        margin: 0px 0px 0px 16px;
+    }
+    .AboutSection_Header{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    .AboutSection_Info{
+        width: 273px;
+        height: auto;
+        margin-top: 30px; 
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29px;
+    }
+    .AboutSection_Background{
+        position: absolute;
+        width: 235px;
+        height: 29px;
+        left: 54px;
+        transform: rotate(-1.69deg);
+        box-sizing: border-box;
+        border-radius: 30px 30px 30px 30px;
+        background-color: #a64ced;
+    }
+    .AboutSection_Texts{
+        display: flex;
+        position: relative;
+        margin-left: 16px;
+        margin-top: 40px;
+        top: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 91px;
+    }
+    .main{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .other{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .Contactless_Other{
+        width: 321px;
+    }
+    .Analytics_Other{
+        width: 306px;
+    }
+    .Fraud_Other{
+        width: 336px;
+    }
+    .Increased_Main{
+        width: 300px;
+    }
+    .Texts_Fraud{
+        margin-left: 0px;
+    }
+    .AboutSection_Logo{
+        display: none;
+    }
+}
+/* adaptive for computer */
+@media (min-width: 1440px) {
+    .AboutSection_Logo{
+        width: auto;
+        height: 484px;
+    }
 }

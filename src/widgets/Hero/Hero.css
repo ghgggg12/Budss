@@ -37,13 +37,14 @@
 }
 .Info_Button{
     margin-top: 30px;
+    margin-bottom: 90px;
 }
 .BusinessSection_Girl{
     display: flex;
     position: absolute;
     justify-self: flex-end;
     align-self: flex-end;
-    width: 800px;
+    width: auto;
 }
 .Girl_Image{
     z-index: -1;
@@ -60,4 +61,79 @@
 .Girl_Background svg{
     width: 586px;
     height: 498px;
+}
+/* adaptive for mobile */
+@media (max-width: 767px) {
+    .BusinessSection{
+        height: auto;
+    }
+    .BusinessSection_Info{
+        align-items: flex-start;
+        height: 100%;
+        width: auto;
+        flex-direction: column;
+        margin: 51px 16px 0px 16px ;
+    }
+    .Info_Header{
+        display: flex;
+        width: 90%;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    .Info_About{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .Info_Button{
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .BusinessSection_Girl{
+        position: relative;
+        margin-top: 124px;
+    }
+    .Girl_Image img{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: 275px;
+    }
+    .Girl_Background{
+        position: absolute;
+        z-index: -2;
+    }
+    .Girl_Background svg{
+        width: 350px;
+        height: 250px;
+    }
+}
+/* adaptive for computer */
+@media (min-width: 1440px) {
+    .BusinessSection{
+        height: 92vh;
+    }
+    .BusinessSection_Info{
+        height: 100%;
+        width: auto;
+    }
+    .Info_Header{
+        max-width: 900px;
+        font-size: 128px;
+        line-height: 120px;
+    }
+    .Info_About{
+        max-width: 900px;
+        font-size: 27px;
+        line-height: 24px;
+    }
+    .Girl_Image img{
+        width: auto;
+        margin-right: 76px;
+        height: 773px;
+    }
+    .Girl_Background svg{
+        width: 886px;
+        height: 738px;
+    }
 }
